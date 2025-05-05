@@ -6,21 +6,27 @@
 
 .header__content {}
 
-.menu {}
+.menu {
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+}
 
 .logo {
-    display: inline-block;
     line-height: 0;
-    margin-right: 200px;
+    flex-shrink: 0;
 }
 
 .nav {
-    display: inline-block;
-    margin-right: 200px;
-    transform: translatey(-30px);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    margin-top: -30px;
 }
 
-.nav__list {}
+.nav__list {
+    display: flex;
+    column-gap: 30px;
+}
 
 .header__nav-list {
     padding: 20px 40px;
@@ -30,10 +36,7 @@
     font-weight: 400px;
 }
 
-.nav__item {
-    display: inline-block;
-    margin-right: 30px;
-}
+.nav__item {}
 
 .nav__item:last-child {
     margin-right: 0;
@@ -42,7 +45,9 @@
 .nav__link {}
 
 .phone {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
 }
 
 .header__phone {}
