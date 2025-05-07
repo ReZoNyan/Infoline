@@ -1,0 +1,64 @@
+.hero {
+    background-color: #2C3B45;
+    padding-top: 150px;
+    min-height: 750px;
+    border-bottom: 50px solid #1E92E7;
+}
+
+.hero_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hero__content {
+    padding-top: 75px;
+}
+
+.adress {
+    color: #1E92E7;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.adress::before {
+    content: "";
+    display: inline-block;
+    background-image: url("../../images/icons/map_marker.svg");
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 46px;
+}
+
+.hero__btns {}
+
+.btn {}
+
+.btn--primary {}
+
+.hero__btn {}
+
+.hero__image {}
+
+.hero__pic {
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom center;
+}

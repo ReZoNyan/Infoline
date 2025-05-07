@@ -11,6 +11,10 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style_main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -38,15 +42,35 @@
                         <!-- Phone_number -->
                         <div class="phone header__phone">
                             <img src="./images/icons/tel.svg" alt="woops" class="phone__icon">
-                            <a href="tel:+7345238800" class="phone__link"> 8 (3452) <span
-                                    class="phone__half">388-000</span></a>
+                            <a href="tel:+7345238800" class="phone__link"><span class="phone__half"> 8 (3452)</span>
+                                388-000</a>
                         </div>
                         <!-- End_Phone_number -->
                     </div>
                 </div>
             </div>
         </header>
-
+        <!--Главная секция-->
+        <section class="hero">
+            <div class="container hero_container">
+                <div class="hero__content">
+                    <!--Надзаголовок-->
+                    <div class="adress">Ул. Республики, 61</div>
+                    <!--Заголовок страницы-->
+                    <h1 class="hero__title">Бизнес-центр<br>
+                        в тюмени
+                    </h1>
+                    <!--Кнопки-->
+                    <div class="hero__btns">
+                        <button class="btn hero__btn btn--primary ">Заказать звонок</button>
+                    </div>
+                </div>
+                <!--Блок с картинкой в hero-->
+                <div class="hero__image">
+                    <img src="./images/bg/building.png" alt="Многоэтажное здание" class="hero__pic">
+                </div>
+            </div>
+        </section>
     </div>
 
 </body>
