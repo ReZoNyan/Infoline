@@ -3,6 +3,7 @@
     padding-top: 150px;
     min-height: 750px;
     border-bottom: 50px solid #1E92E7;
+    display: flex;
 }
 
 .hero_container {
@@ -13,6 +14,8 @@
 
 .hero__content {
     padding-top: 75px;
+    flex: 1;
+    padding-right: 85px;
 }
 
 .adress {
@@ -55,10 +58,42 @@
 
 .hero__btn {}
 
-.hero__image {}
+.hero__image {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
 
 .hero__pic {
     height: 100%;
     object-fit: contain;
     object-position: bottom center;
+    position: relative;
+    z-index: 10;
+}
+
+.hero__image::before,
+.hero__image::after {
+    content: "";
+    display: block;
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    border-radius: 5px 0 0 0;
+}
+
+.hero__image::before {
+    top: 0;
+    left: 0;
+    background-image: url("../../images/bg/sky.jpg");
+    z-index: 9;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__image::after {
+    background-color: #404F59;
+    z-index: 8;
+    top: -15px;
+    left: 30px;
 }
