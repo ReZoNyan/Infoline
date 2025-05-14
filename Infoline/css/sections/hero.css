@@ -1,7 +1,7 @@
 .hero {
     background-color: #2C3B45;
-    padding-top: 150px;
-    min-height: 750px;
+    padding-top: clamp(110px, 11.9vw, 150px);
+    min-height: clamp(453px, 59.9vw, 750px);
     border-bottom: 50px solid #1E92E7;
     display: flex;
 }
@@ -13,9 +13,10 @@
 }
 
 .hero__content {
-    padding-top: 75px;
+    padding-top: clamp(25px, 6vw, 75px);
     flex: 1;
     padding-right: 85px;
+    margin-bottom: clamp(100px, 15.8vw, 200px);
 }
 
 .adress {
@@ -43,7 +44,7 @@
 .hero__title {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 56px;
+    font-size: clamp(31px, 4.4vw, 56px);
     line-height: 120%;
     text-transform: uppercase;
     color: #fff;

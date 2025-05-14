@@ -1,0 +1,25 @@
+@media(max-width: 910px) {
+    .container {
+        width: 93%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .header {
+        border-radius: 0 0 10px 10px;
+        background-color: #404f59;
+        padding: 16px 0;
+    }
+
+    .header__nav-list {
+        display: none;
+    }
+
+    .header__phone {
+        display: none;
+    }
+
+    .burger__img {
+        display: block;
+    }
+}

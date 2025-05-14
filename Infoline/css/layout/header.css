@@ -58,3 +58,7 @@
 .phone__link {}
 
 .phone__half {}
+
+.burger__img {
+    display: none;
+}
