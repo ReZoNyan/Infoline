@@ -22,4 +22,46 @@
     .burger__img {
         display: block;
     }
+
+    .hero__content {
+        flex: 2 0 50vw;
+        margin-right: 40px;
+    }
+
+    .hero__image {
+        flex: 1 0 50vw;
+        padding-left: 30px;
+    }
+}
+
+@media(max-width: 579px) {
+    .hero_container {
+        flex-wrap: wrap;
+    }
+
+    .hero__content {
+        flex: 1 0 auto;
+        padding: 0 0;
+        text-align: center;
+    }
+
+    .hero__image {
+        margin-left: -3.5vw;
+        margin-right: -3.5vw;
+        flex: 1 0 100vw;
+        padding: 0;
+    }
+
+    .hero__image::before {
+        border-radius: 0;
+    }
+
+    .hero__image::after {
+        display: none;
+    }
+
+    .hero__pic {
+        width: 248px;
+    }
+
 }
