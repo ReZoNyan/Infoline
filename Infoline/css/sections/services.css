@@ -1,0 +1,82 @@
+.services {
+    background-color: #F8F8F8;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+.services__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section__title {}
+
+.services__title {}
+
+.logo {}
+
+.service__logo {
+    opacity: 0.4;
+}
+
+.logo__svg {}
+
+.services__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service {
+    border-radius: 5px;
+    width: 380px;
+    min-height: 172px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    display: flex;
+    overflow: hidden;
+    flex: 1 0 auto;
+}
+
+.service__img {
+    width: 70px;
+    background-color: #2c3b45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.service__pic {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.service__content {
+    padding: 30px 40px 30px 20px;
+}
+
+.service__titel {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.service__list {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #9c9c9c;
+    margin-left: 18px;
+}
+
+.service__icon {
+    list-style: revert;
+}
